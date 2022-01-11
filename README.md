@@ -92,13 +92,13 @@ and one taught by [Eissa](https://www.udemy.com/aws-certified-solutions-architec
 # Concepts and Components:
 
    1.   **AWS Global Infrastructure**:
-        1. Availability zone: Each AWS region consists of multiple AZs
-            Each region consists of multiple availability zones, currently 69 in total(as of 2019)
-            An Availability Zone(AZ) is simply a data center
-            Each AZ can contain multiple data centers
-                        
-        2. Regions: A place where AWS resources exists a geographical area, there are 22 regions (as of 2019)
+        1. Regions: A place where AWS resources exists a geographical area, there are 26 regions (as of 1/2022)
         
+        2. Availability zone:
+            Each region consists of multiple availability zones, currently 84 in total (as of 1/2022)
+           
+            Each AZ can contain multiple data centers
+                                
         3. Edge location: This is a CDN(Content-Delivery Network) endpoint. Edge locations are used by CloudFront 
             to cache files near the user where they access them.
         
